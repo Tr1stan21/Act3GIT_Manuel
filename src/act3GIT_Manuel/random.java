@@ -3,13 +3,13 @@ package act3GIT_Manuel;
 import java.util.Random;
 import java.util.Scanner;
 
-public class random {
-    
+public class random { 
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 30; i++) {  
             int numeroAleatorio = random.nextInt(10) + 1;
             System.out.println(numeroAleatorio);
         }
@@ -42,7 +42,7 @@ public class random {
 
         scanner.close();
     }
-    
+
     public static void imprimirNumerosEntre(int a, int b) {
         if (a > b) {
             int temp = a;
