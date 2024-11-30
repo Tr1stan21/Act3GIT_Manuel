@@ -45,12 +45,12 @@ public class random {
 
     public static void imprimirNumerosEntre(int a, int b) {
         if (a > b) {
-            int temp = a;
+            int cont = a;
             a = b;
-            b = temp;
+            b = cont;
         }
 
-        for (int i = a; i < b; i += 7) {
+        for (int j = a; i < b; i += 7) {
             System.out.println(i);
         }
     }
